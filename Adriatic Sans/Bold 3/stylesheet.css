@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Adriatic_bold';
+    src: url('hinted-Adriatic-Bold.eot');
+    src: local('Adriatic Bold'), local('Adriatic-Bold'),
+        url('hinted-Adriatic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('hinted-Adriatic-Bold.woff2') format('woff2'),
+        url('hinted-Adriatic-Bold.woff') format('woff'),
+        url('hinted-Adriatic-Bold.ttf') format('truetype'),
+        url('hinted-Adriatic-Bold.svg#Adriatic-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+

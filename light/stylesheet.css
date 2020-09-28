@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Adriatic_light';
+    src: url('hinted-Adriatic-Light.eot');
+    src: local('Adriatic Light'), local('Adriatic-Light'),
+        url('hinted-Adriatic-Light.eot?#iefix') format('embedded-opentype'),
+        url('hinted-Adriatic-Light.woff2') format('woff2'),
+        url('hinted-Adriatic-Light.woff') format('woff'),
+        url('hinted-Adriatic-Light.ttf') format('truetype'),
+        url('hinted-Adriatic-Light.svg#Adriatic-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+

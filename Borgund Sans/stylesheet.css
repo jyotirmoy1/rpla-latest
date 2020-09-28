@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Borgund';
+    src: url('Borgund-Regular.eot');
+    src: local('Borgund Regular'), local('Borgund-Regular'),
+        url('Borgund-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Borgund-Regular.woff2') format('woff2'),
+        url('Borgund-Regular.woff') format('woff'),
+        url('Borgund-Regular.ttf') format('truetype'),
+        url('Borgund-Regular.svg#Borgund-Regular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Borgund';
+    src: url('Borgund-Medium.eot');
+    src: local('Borgund Medium'), local('Borgund-Medium'),
+        url('Borgund-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Borgund-Medium.woff2') format('woff2'),
+        url('Borgund-Medium.woff') format('woff'),
+        url('Borgund-Medium.ttf') format('truetype'),
+        url('Borgund-Medium.svg#Borgund-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+

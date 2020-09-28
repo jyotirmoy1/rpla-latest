@@ -1,0 +1,66 @@
+.backimg
+{
+  background-image: url('../images/blue1.jpg'); /* The image used */
+  background-color: white; /* Used if the image is unavailable */
+  height:100%; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 70px;
+  text-align: center;
+}
+
+.login-icon {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: baseline;
+}
+.margin-2
+{
+  margin-top: 2.5em;
+}
+.padbot2
+{
+padding-bottom: 2em;
+}
+
+.margbot2
+{
+  margin-bottom: 2.5em;
+}
+.space-tb
+{
+margin-top: 1.77em 0em;
+}
+.social-icon li
+{
+display: block;
+    margin: auto;
+    margin-top: -1.5em;
+    font-size: 20px;
+
+}
+hr.sm1{
+  display:inline-block;
+  background:#E8E8E8;
+  height:2px;
+  width:50px;
+  border:0;
+  position:relative;
+  margin: 20px auto;
+}
+.marginzero p
+{
+    margin:0px;
+    font-family: 'Adriatic_light';
+    font-style: normal;
+    font-weight: lighter;
+    color: #061634;
+}
+
+  .sidley-footer__sign-up
+  {
+display:inline-block;
+  }

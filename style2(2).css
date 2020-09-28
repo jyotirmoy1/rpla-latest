@@ -1,0 +1,36 @@
+.backimg
+{
+  background-image: url('../images/blue1.jpg'); /* The image used */
+  background-color: white; /* Used if the image is unavailable */
+  height:100%; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 65px;
+  text-align: center;
+}
+
+.login-icon {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: baseline;
+}
+.margin-2
+{
+  margin-top: 2.5em;
+}
+.padbot2
+{
+padding-bottom: 2em;
+}
+
+.margbot2
+{
+  margin-bottom: 2.5em;
+}
+.space-tb
+{
+margin-top: 1.77em 0em;
+}

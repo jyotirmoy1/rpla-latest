@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Phenom_Grotesque_thin';
+    src: url('Phenom_Grotesque-Thin.eot');
+    src: local('Phenom_Grotesque Thin'), local('Phenom_Grotesque-Thin'),
+        url('Phenom_Grotesque-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Phenom_Grotesque-Thin.woff2') format('woff2'),
+        url('Phenom_Grotesque-Thin.woff') format('woff'),
+        url('Phenom_Grotesque-Thin.ttf') format('truetype'),
+        url('Phenom_Grotesque-Thin.svg#Phenom_Grotesque-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+

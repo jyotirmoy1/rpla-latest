@@ -1,0 +1,723 @@
+<!DOCTYPE HTML>
+<html class="no-js">
+<head>
+<!-- Basic Page Needs
+  ================================================== -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>RPLA - Client Services</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<!-- Mobile Specific Metas
+  ================================================== -->
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<!-- CSS
+  ================================================== -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/style2.css" rel="stylesheet" type="text/css">
+<link href="vendor/magnific/magnific-popup.css" rel="stylesheet" type="text/css">
+<link href="vendor/owl-carousel/css/owl.carousel.css" rel="stylesheet" type="text/css">
+<link href="vendor/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css">
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
+<link href="css/custom.css" rel="stylesheet" type="text/css"><!-- CUSTOM STYLESHEET FOR STYLING -->
+<!-- Color Style -->
+<link href="colors/color1.css" rel="stylesheet" type="text/css">
+<link href="medium/stylesheet.css" rel="stylesheet">
+<link href="light/stylesheet.css" rel="stylesheet">
+<link href="orion/stylesheet.css" rel="stylesheet">
+<link href="phenom/Medium/stylesheet.css" rel="stylesheet">
+<link href="bold/stylesheet.css" rel="stylesheet">
+<link href="phenom/Thin/stylesheet.css" rel="stylesheet">
+<link href="phenom/Bold/stylesheet.css" rel="stylesheet">
+
+<!-- SCRIPTS
+  ================================================== -->
+<script src="js/modernizr.js"></script><!-- Modernizr -->
+<style>
+    .section-header {
+    text-align: center;
+    position: relative;
+    margin-bottom: 2.08333rem;
+    margin-top: 2.5em;
+}
+.section-header::before {
+    position: relative;
+    transform: translateY(-50%);
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    transform: translateZ(0);
+}
+.section-header-title {
+    display: inline-block;
+    max-width: 70%;
+    position: relative;
+    background-color: #fff;
+    padding: 0 1rem;
+}
+.section-header-title {
+    font-family: kepler-std-display,Times New Roman,SimSun;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+.inner-wrapper {
+    max-width: 48.05556rem;
+    margin: 0 auto;
+}
+.page-insights-landing .subscribe-publications {
+    margin: 2rem 0 1rem;
+	
+}
+.subscribe-publications {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 1rem 0;
+    position: relative;
+    margin-top: 2rem;
+	height: 80px;
+}
+.subscribe-publications .prompt {
+    margin-right: 2rem;
+    width: 50%;
+    text-align: center;
+}
+.subscribe-publications .subscribe-action {
+    width: 50%;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.subscribe-publications::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    background-color: #e2e2e2;
+}
+a {
+    text-decoration: none;
+    transition: color .25s ease-in,border-color .25s ease-in,opacity .25s ease-in,font-weight .25s ease-in,background-color .25s ease-in;
+    color: #005e85;
+    word-break: break-word;
+}
+.subscribe-publications .call-to-action::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+subscribe-publications .call-to-action {
+    position: relative;
+    padding-left: 3rem;
+    color: #604658;
+    transition: color .3s;
+}
+ .subscribe-publications .call-to-action {
+    font-size: .83333rem;
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: Avenir LT W01_65 Medium1475532;
+}
+
+.subscribe-publications .prompt, .tab-menu-btn {
+    font-size: .83333rem;
+    line-height: 1.2;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    font-family: Avenir LT W01_65 Medium1475532;
+}
+.sidley-footer__sign-up {
+    background: #283643;
+    padding: 1rem 2rem 2rem 1rem;
+    /*margin: 0 1rem 2rem -1rem;*/
+}
+.sidley-footer__subheader {
+    font-family: kepler-std,Times New Roman,SimSun;
+    color: #fff;
+    font-size: 1.125rem;
+    font-style: italic;
+}
+.sidley-footer__sign-up .cta-links-arrow {
+    color: #f4c04a;
+    font-size: .75rem;
+}
+.sidley-footer__sign-up .cta-links-arrow::after {
+    background-image: url(images/arrow-right-yellow.svg);
+}
+.cta-links-arrow::after {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 12px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+    margin-left: .5rem;
+    vertical-align: baseline;
+}
+</style>
+</head>
+<body class="header-style1">
+<!--[if lt IE 7]>
+	<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+<![endif]-->
+<div class="body">
+    <div class="header-wrapper">
+       <!--  <div class="topbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <p>In need of urgent assistance? Call +40 (0)20 0390 0999</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <ul class="pull-right social-icons">
+                            <li class="facebook"><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                        
+                        <form class="search-form">
+                            <input type="text" placeholder="Search">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+        <!-- Start Header -->
+    	<div class="site-header">
+        	<div class="container">
+                <div class="site-logo">
+                    <a href="index.html">
+                        <img src="images/rpla.png" alt="" class="default-logo">
+                        <img src="images/rpla.png" alt="" class="retina-logo" width="164" height="45">
+                    </a>
+                </div>
+                <a href="#" id="info-toggle"><i class="fa fa-phone"></i></a>
+                <ul id="info-content">
+                	<li style="font-family: 'Adriatic_light'; font-style: normal;">
+                    	<i class="fa fa-phone"></i>
+                        <!--<div class="ititle">Call/Mail Us</div>-->
+                        <div class="ititle" >Call/Mail Us</div>
+                            
+                <!--<strong>+91-9910432903/</br>contact@rpla.co.in</strong>-->
+                <strong >9910432903/<br>contact@rpla.co.in</strong>
+                    </li>
+                	<li style="font-family: 'Adriatic_light'; font-style: normal;">
+                    	<i class="fa fa-map-signs"></i>
+                        <!--<div class="ititle">Address</div>-->
+                        <div class="ititle" >Address</div>
+                       <!--- <strong>O-27A, First Floor, Jangpura Extension, New Delhi - 110014</strong>-->
+                       <strong >O-27A, First Floor, Jangpura Extension, New Delhi - 110014, India</strong>
+                        
+                        </li>
+                	<!--<li>
+                    	<i class="fa fa-clock-o"></i>
+                    	<div class="ititle">Working Hours</div>
+                        <strong>Mon-Sat 09:00 to 17:00</strong>
+                    </li>-->
+                </ul>
+			<ul class="pull-right social-icons social-icons-colored social-icons-inverted">
+                            <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                           
+                        </ul>
+                        
+                <a href="#" id="menu-toggle" style="font-family: Adriatic; letter-spacing: 0.05em;">Menu</a>
+                <nav class="main-navigation pull-right">
+                    <ul class="dd-menu sf-menu">
+                        <li style="font-family: 'Adriatic_light'; font-style: normal; letter-spacing: 0.102em;"><a href="home.html">About Us</a>
+                           
+                        </li>
+                        <!--<li style="font-family: 'Adriatic_light'; font-style: normal; letter-spacing: 0.102em;"><a href="about.html">About Us</a>-->
+                           <!--  <ul>
+                                 <li><a href="about.html">Our Philosphy</a></li>-->
+                                <!--<li><a href="team.html">Our people</a></li>-->
+                                <!--<li><a href="history.html">Our Very Own Ravi</a></li>-->
+                                <!--<li><a href="testimonials.html">Client Testimonials</a></li>-->
+				    <!--<li style="font-family: 'Phenom_Grotesque'; font-weight: bold; font-style: normal;"><a href="about.html">Our Philosphy</a></li>-->
+                                  <!-- > <li style="font-family: 'Phenom_Grotesque'; font-weight: bold; font-style: normal;"><a href="history.html">Our Very Own Ravi</a></li>-->
+                            <!--</ul> -->
+                        </li>
+                        <li style="font-family: 'Adriatic_light'; font-style: normal; letter-spacing: 0.102em;"><a href="history.html">People</a>
+                        <li style="font-family: 'Adriatic_light'; font-style: normal; letter-spacing: 0.102em;"><a href="services.html">Expertise</a>
+                           
+                        </li>
+			    
+			     <li style="font-family: 'Adriatic_light'; font-style: italic; letter-spacing: 0.102em;"><a href="news-list.html">Our Insights</a>
+                           
+                        </li>
+                        
+                       
+                       <!-- <li><a href="#">Contact Us</a></li>-->
+                    </ul>
+                </nav>
+          	</div>
+        </div>
+    </div>
+    <!-- Start Hero Area -->
+    <div class="hero-area">
+    	<div class="page-header have-submenu" style="background-image:url('images/service.png');";>
+        	<div class="container">
+
+            	<!--<a href="contact.html" class="btn btn-primary btn-dark btn-ghost pull-right">Book a meeting</a>-->
+            	<h1 style="color: #061634;font-family: 'Adriatic_light';letter-spacing: 0.100em;">Client Services</h1>
+                <ol class="breadcrumb">
+                    <li style="font-family: 'Adriatic_bold';letter-spacing: 0.102em;">About Us</li>
+                    <li style="font-family: 'Adriatic_bold';letter-spacing: 0.102em;">Expertise</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!-- Main Content -->
+    <div id="main-container">
+    	<div class="content">
+        	<div class="container" style="margin-bottom:1em">
+            	<div class="row margin-2 margbot2">
+                    <div class="col-md-12">
+                  <!--  <div class="spacer-40"></div>-->
+            
+                    	<h3 style="color: #4d1e23;font-family: 'Adriatic_light'; font-style: normal;">Our Core Practice areas</h3>
+                    	<div class="spacer-20"></div>
+                        <div class="row">
+                        	<div class="col-md-6">
+                                <div class="accordion" id="toggleArea" style="border-top:none;">
+                                    <div class="accordion-group panel">
+                                        <div class="accordion-heading togglize">
+                                        	<a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseOne"  style = "font-family: 'Adriatic_light'; font-style:normal;font-weight: bolder;color: #7eaab5;">
+                                            	Private Clients, Estates, Trusts
+                                                <i class="fa fa-plus-circle"></i><i class="fa fa-minus-circle"></i>
+                                          	</a>
+                                       	</div>
+                                        <div id="collapseOne" class="accordion-body collapse">
+                                            <div class="accordion-inner">
+                                            	<div class="row">
+                                                    <ul class="carets col-md-12" style="font-family: 'Adriatic_light'; font-style: normal;">
+							    <li>Setting up of family offices.</li>
+                   <li>Advising family offices on corporate, regulatory and tax laws, accounting policies and disclosures.</li>
+							    <li>Succession planning including Trusts and Wills.</li>
+<li>Achieving family objectives, protection of wealth and control of businesses.</li>
+                                                    	
+                                                    
+                                                    
+                                                    	<li>Governance and management of businesses, review and decision-making processes.</li>
+							  <li>Investment planning, options analysis, structuring and management.</li>
+							    <li>Personal tax planning, management and compliances including litigation support.</li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-group panel">
+                                        <div class="accordion-heading togglize">
+                                        	<a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapse2" style="font-family: 'Adriatic_light'; font-style: normal;font-weight: bolder;color: #7eaab5;">
+                                            	Tax
+                                                <i class="fa fa-plus-circle"></i><i class="fa fa-minus-circle"></i>
+                                          	</a>
+                                       	</div>
+                                        <div id="collapse2" class="accordion-body collapse">
+                                            <div class="accordion-inner">
+                                            	<div class="row">
+                                                    <ul class="carets col-md-12" style="font-family: 'Adriatic_light'; font-style: normal;">
+                                                    	<li>Advising corporates and other tax payers on various tax planning and operational issues.</li>
+<li>Planning and restructuring of businesses and corporate entities in order to optimize resources, create efficiency and value for all stakeholders.</li>
+							    <li>Structuring options such as mergers, demergers, business transfer, asset transfer etc.</li>
+							    <li>Tax due diligence.</li>
+
+                                                   
+                                                    	<li>Structuring of cross border transactions including India entry strategy.</li>
+							    <li>Profit distribution and exit strategies.</li>
+							    <li>Management of tax disputes including litigation strategy and support.</li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-group panel">
+                                        <div class="accordion-heading togglize">
+                                        	<a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapse3" style="font-family: 'Adriatic_light'; font-style: normal;font-weight: bolder;color: #7eaab5;">
+                                            	Mergers & Acquisitions
+                                                <i class="fa fa-plus-circle"></i><i class="fa fa-minus-circle"></i>
+                                          	</a>
+                                       	</div>
+                                        <div id="collapse3" class="accordion-body collapse">
+                                            <div class="accordion-inner">
+                                            	<div class="row">
+                                                    <ul class="carets col-md-12"style="font-family: 'Adriatic_light'; font-style: normal;">
+                                                    	<li>Corporate, regulatory, accounting and other implications of the structuring options.</li>
+							    <li>Legal and tax due diligence.</li>
+							    <li>Advising on corporate, tax and exchange control laws.</li>
+							    <li>Drafting, reviewing and negotiation of transaction documents.</li> 
+
+                                                    
+                                                    	<li>Term sheet, shareholders’ agreement, share purchase agreement, share subscription agreement, joint venture agreement, escrow arrangement, non-disclosure agreement, employment agreement etc.</li>
+							    <li>Tax efficient structuring of cross border transactions.</li>
+							    <li>Post-signing and post-closing assistance.</li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-group panel">
+                                        <div class="accordion-heading togglize">
+                                        	<a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapse4" style="font-family: 'Adriatic_light'; font-style: normal;font-weight: bolder;color: #7eaab5;">
+                                            	Private Equity Investments
+                                                <i class="fa fa-plus-circle"></i><i class="fa fa-minus-circle"></i>
+                                          	</a>
+                                       	</div>
+                                        <div id="collapse4" class="accordion-body collapse">
+                                            <div class="accordion-inner">
+                                            	<div class="row">
+                                                    <ul class="carets col-md-12" style="font-family: 'Adriatic_light'; font-style: normal;">
+                                                    	<li>Corporate, regulatory, accounting and other implications of the structuring options.</li>
+							    <li>Legal and tax due diligence.</li>
+							    <li>Advise on corporate, tax and exchange control laws.</li>
+							<li>Drafting, reviewing and negotiation of transaction documents.</li> 
+
+                                                   <li>Term sheet, shareholders’ agreement, share purchase agreement, share subscription agreement, escrow arrangement, non-disclosure agreement, employment agreement etc.</li>
+<li>Tax efficient structing of cross border transactions.</li>
+<li>Post-signing and post-closing assistance.</li>
+							    <li>Exits.</li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+					 <div class="accordion-group panel">
+                                        <div class="accordion-heading togglize">
+                                        	<a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapse6" style="font-family: 'Adriatic_light'; font-style: normal;font-weight: bolder;color: #7eaab5;">
+                                            	White Collar Crimes, Frauds and Investigations
+
+                                                <i class="fa fa-plus-circle"></i><i class="fa fa-minus-circle"></i>
+                                          	</a>
+                                       	</div>
+                                        <div id="collapse6" class="accordion-body collapse">
+                                            <div class="accordion-inner">
+                                            	<div class="row">
+                                                    <ul class="carets col-md-12"style="font-family: 'Adriatic_light'; font-style: normal;">
+                                                    	<li>Anti-bribery and anti-corruption laws.</li>
+                                                        <li>Corporate and accounting frauds.</li>
+
+                                                    
+                                                    	<li>Planning, management and overview of forensic investigations.</li>
+							<li>Disclosure obligations.</li>
+
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                               	</div>
+                        <!-- End Toggle -->
+                    </div>
+					
+					
+					<div class="col-md-6">
+                          <div class="accordion-group panel">
+                                        <div class="accordion-heading togglize">
+                                        	<a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapse7" style="font-family: 'Adriatic_light'; font-style: normal;font-weight: bolder;color: #7eaab5;">
+                                            	Corporate and Commercial
+                                                <i class="fa fa-plus-circle"></i><i class="fa fa-minus-circle"></i>
+                                          	</a>
+                                       	</div>
+                                        <div id="collapse7" class="accordion-body collapse">
+                                            <div class="accordion-inner">
+                                            	<div class="row">
+                                                    <ul class="carets col-md-12"style="font-family: 'Adriatic_light'; font-style: normal;">
+                                                    	<li>Advising on corporate, regulatory and exchange control laws.</li>
+                                                        <li>Accounting issues and disclosure obligations.</li>
+
+
+                                                    <li>Drafting, review and negotiation of commercial contracts.</li>
+                                                        <li>Commercial contracts such as supply agreement, employment agreement, lease agreement, non-compete agreement, master services agreement, loan agreement, software licensing/development/assignment agreement etc.</li>
+
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+									<div class="accordion-group panel">
+                                        <div class="accordion-heading togglize">
+                                        	<a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapse8" style="font-family: 'Adriatic_light'; font-style: normal;font-weight: bolder;color: #7eaab5;">
+                                            	Corporate Governance
+                                                <i class="fa fa-plus-circle"></i><i class="fa fa-minus-circle"></i>
+                                          	</a>
+                                       	</div>
+                                        <div id="collapse8" class="accordion-body collapse">
+                                            <div class="accordion-inner">
+                                            	<div class="row">
+                                                    <ul class="carets col-md-12"style="font-family: 'Adriatic_light'; font-style: normal;">
+                                                    	<li>Critical review of charter documents, bylaws and other documents.</li>
+<li>Leadership succession planning and processes.</li>
+<li>Crisis management.</li>
+
+
+                                                    <li>Related party transactions, loans, investments, services.</li>
+<li>Investigations, enforcement and regulation.</li>
+<li>Advising management on day to day corporate governance issues.</li>
+
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+									<div class="accordion-group panel">
+                                        <div class="accordion-heading togglize">
+                                        	<a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapse9" style="font-family: 'Adriatic_light'; font-style: normal;font-weight: bolder;color: #7eaab5;">
+                                            	Technology, Media, Entertainment and IP
+                                                <i class="fa fa-plus-circle"></i><i class="fa fa-minus-circle"></i>
+                                          	</a>
+                                       	</div>
+                                        <div id="collapse9" class="accordion-body collapse">
+                                            <div class="accordion-inner">
+                                            	<div class="row">
+                                                    <ul class="carets col-md-12"style="font-family: 'Adriatic_light'; font-style: normal;">
+                                                    	<li>Licensing, development, collaborations and joint ventures.</li>
+                                                        <li>IP purchase, sale and licensing.</li>
+                                                        <li>Agreements with writers, directors, cinematographers, artists.</li>
+                                                       <li>IP and technology aspects of M&A transactions.</li>
+                                                       <li>Cloud computing, outsourcing, software licensing, development, assignment and distribution agreements, end-user license agreements.</li>
+
+
+                                                   <li>Internet terms and conditions, privacy policy, data privacy, cybersecurity.</li>
+<li>Non-disclosure agreements, confidentiality agreements.</li>
+<li>FinTech, online payments, pre-paid instruments, cryptocurrency.</li>
+<li>Due-diligence on IT, ITeS companies.</li>
+
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-group panel">
+                                        <div class="accordion-heading togglize">
+                                        	<a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapse5" style="font-family: 'Adriatic_light'; font-style: normal;font-weight: bolder;color: #7eaab5;">
+                                            	Corporate Restructuring
+                                                <i class="fa fa-plus-circle"></i><i class="fa fa-minus-circle"></i>
+                                          	</a>
+                                       	</div>
+                                        <div id="collapse5" class="accordion-body collapse">
+                                            <div class="accordion-inner">
+                                            	<div class="row">
+                                                    <ul class="carets col-md-12"style="font-family: 'Adriatic_light'; font-style: normal;">
+                                                    	<li>Planning and re-structuring of businesses and corporate entities in order to optimize resources, create efficiency and creating value for all stakeholders.</li>
+							    <li>International and domestic tax planning and management.</li>
+<li>Structuring of cross border transactions.</li>
+							    <li>Corporate, regulatory, accounting and other implications of the structuring options.</li>
+
+ </ul><br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-group panel">
+                                        <div class="accordion-heading togglize">
+                                        	<a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapse22" style="font-family: 'Adriatic_light'; font-style: normal;font-weight: bolder; color: #7eaab5;">
+                                            	START - UPS
+                                                <i class="fa fa-plus-circle"></i><i class="fa fa-minus-circle"></i>
+                                          	</a>
+                                       	</div>
+                                        <div id="collapse22" class="accordion-body collapse">
+                                            <div class="accordion-inner">
+                                            	<div class="row">
+                                                    <ul class="carets col-md-12"style="font-family: 'Adriatic_light'; font-style: normal;">
+                                                    	<li>Legal solutions for start-ups and emerging high growth companies. We help
+                                                            entrepreneurs build their companies right from incorporation of the company to
+                                                            periodic compliance, taxation, regulatory and accounting advice and transaction
+                                                            support during funding.</li>
+                                                         
+
+
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+<br><br>
+
+				   </div>
+					
+					
+                </div>
+            </div>
+        </div>
+      </div>
+      <br>
+	  <!--<div class="spacer-50"></div>-->
+    <!-- Site Footer -->
+    <div class="site-footer">
+    	<div class="container">
+        	
+            	<div class="col-md-3 col-sm-4">
+                	<div class="widget footer_widget widget_links">
+                    	<h4 class="widgettitle" style="font-family: 'Adriatic_bold'; font-style: normal;">From RPLA</h4>
+                        <ul>
+                        	<li style="font-family: 'Adriatic_bold'; font-style: normal; color: #4d1e23;">
+                                <a href="services.html ">Our Leadership</a>
+                            </li>
+                            <li style="font-family: 'Adriatic_bold'; font-style: normal; color: #4d1e23;">
+                                <a href="services.html ">Practice Areas</a>
+                            </li>
+                            <li style="font-family: 'Adriatic_bold'; font-style: normal; color: #4d1e23;">
+                                <a href="services.html">Updates & Insights</a>
+                            </li>
+                            
+                           
+                        </ul>
+                    </div>
+                </div>
+            	<div class="col-md-3 col-sm-4">
+                	<div class="widget footer_widget widget_links">
+                    	<h4 class="widgettitle" style="font-family: 'Adriatic_bold'; font-style: normal;">Documents</h4>
+                        <ul>
+                            <li style="font-family: 'Adriatic_bold'; font-style: normal; color: #4d1e23;">
+                                <a href="services.html ">Disclaimer</a>
+                            </li>
+                            <li style="font-family: 'Adriatic_bold'; font-style: normal; color: #4d1e23;">
+                                <a href="services.html ">Privacy Policy</a>
+                            </li>
+                            <li style="font-family: 'Adriatic_bold'; font-style: normal; color: #4d1e23;">
+                                <a href="services.html">Terms of Use</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-4">
+                	<div class="widget footer_widget widget_links">
+                    	<h4 class="widgettitle" style="font-family: 'Adriatic_bold'; font-style: normal;">Contact Us</h4>
+                        <ul>
+                            <li style="font-family: 'Adriatic_bold'; font-style: normal;">
+                                <p style="color: #e9e1e2;">0-27A, 1 st Floor, Jangpura
+                                    Extension, New Delhi-
+                                    110014, +91 99104 32903, conatct@rpla.co.in</p>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                
+            	<!--<div class="col-md-3 col-sm-4">
+                	<div class="widget footer_widget">
+                    	<h4 class="widgettitle">Twitter Updates</h4>
+                        <div class="twitter-widget" data-tweets-count="2"></div>
+                    </div>
+                </div>
+            </div>-->
+            
+            <div class="footer-row2">
+                <ul class="pull-right social-icons social-icons-colored social-icons-inverted">
+                    <!--<li class="facebook"><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                    <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+                    <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <!--<li class="youtube"><a href="#"><i class="fa fa-youtube"></i></a></li>-->
+                </ul>
+                <div class="row footer-widgets-area">
+                    <div class="col-md-2" style="margin-left: 10px;">
+                        <div class="sidley-footer__sign-up">
+                            <h3 class="sidley-footer__subheader" style = "font-family: Adriatic_light;">Keep up-to-date with RPLA</h3>
+                            <a href="" class="cta-links-arrow" rel="noopener noreferrer" target="_blank" style = "color:#80bce4">Sign Up</a>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+            	<!--<ul class="footer-menu">
+                	<li><a href="#">Home</a></li>
+                	<li><a href="#">Privacy Policy</a></li>
+                	<li><a href="#">Website Terms</a></li>
+         
+                	
+                </ul>-->
+            </div>
+            <div class="footer-row3">
+            	<a href="index.html"><img src="images/rpla1.png" alt="" width="130" class="site-footer-logo"></a>
+                <p style="font-family: 'Adriatic_bold'; font-style: normal; color: #80bce4;letter-spacing: 0.109em;">&copy; 2020 RPLA. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+  	<a id="back-to-top"><i class="fa fa-angle-double-up"></i></a> 
+</div>
+<script src="js/jquery-2.2.3.min.js"></script> <!-- Jquery Library Call -->
+<script src="vendor/magnific/jquery.magnific-popup.min.js"></script> <!-- Maginific Popup Plugin -->
+<script src="js/ui-plugins.js"></script> <!-- UI Plugins -->
+<script src="js/helper-plugins.js"></script> <!-- Helper Plugins -->
+<script src="vendor/owl-carousel/js/owl.carousel.min.js"></script> <!-- Owl Carousel -->
+<script src="js/bootstrap.js"></script> <!-- UI -->
+<script src="js/init.js"></script> <!-- All Scripts -->
+<script src="vendor/flexslider/js/jquery.flexslider.js"></script> <!-- FlexSlider -->
+
+<script>
+
+var $div1 = $('#blg1'), 
+    $div2 = $('#blg2');
+  
+
+$div1.hide();
+
+$( $div2 ).mouseover(function() {
+	 $( $div1 ).slideDown("slow");
+	 
+});
+$( $div1 ).mouseout(function() {
+	 $( $div1 ).slideUp("slow");
+	 
+});
+</script>
+
+<script>
+
+var $div3 = $('#blg3'), 
+    $div4 = $('#blg4');
+  
+
+$div3.hide();
+
+$( $div4 ).mouseover(function() {
+	 $( $div3 ).slideDown("slow");
+	 
+});
+$( $div3 ).mouseout(function() {
+	 $( $div3 ).slideUp("slow");
+});
+</script>
+<script>
+
+var $div5 = $('#blg5'), 
+    $div6 = $('#blg6');
+  
+
+$div5.hide();
+
+$( $div6 ).mouseover(function() {
+	 $( $div5 ).slideDown("slow");
+	 
+});
+$( $div5 ).mouseout(function() {
+	 $( $div5 ).slideUp("slow");
+});
+</script>
+
+</body>
+</html>

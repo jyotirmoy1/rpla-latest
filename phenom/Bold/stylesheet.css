@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Phenom_Grotesque_bold';
+    src: url('Phenom_Grotesque-Bold.eot');
+    src: local('Phenom_Grotesque Bold'), local('Phenom_Grotesque-Bold'),
+        url('Phenom_Grotesque-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Phenom_Grotesque-Bold.woff2') format('woff2'),
+        url('Phenom_Grotesque-Bold.woff') format('woff'),
+        url('Phenom_Grotesque-Bold.ttf') format('truetype'),
+        url('Phenom_Grotesque-Bold.svg#Phenom_Grotesque-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
